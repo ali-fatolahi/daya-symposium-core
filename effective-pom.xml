@@ -8303,25 +8303,6 @@
     </pluginManagement>
     <plugins>
       <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>3.5.0</version>
-        <executions>
-          <execution>
-            <id>repackage</id>
-            <goals>
-              <goal>repackage</goal>
-            </goals>
-            <configuration>
-              <mainClass>${start-class}</mainClass>
-            </configuration>
-          </execution>
-        </executions>
-        <configuration>
-          <mainClass>${start-class}</mainClass>
-        </configuration>
-      </plugin>
-      <plugin>
         <artifactId>maven-clean-plugin</artifactId>
         <version>3.4.1</version>
         <executions>
